@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "goit_web_homework_6"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Linden say.elsword@gmail.com"]
+readme = "README.md"
+packages = [{include = "goit_web_homework_6"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2-binary = "^2.9.9"
+faker = "^19.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
